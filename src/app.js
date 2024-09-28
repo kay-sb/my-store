@@ -14,7 +14,6 @@ function App() {
         <main className="p-4">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* می‌توانید صفحات دیگر را اینجا اضافه کنید */}
             <Route path="/products" element={<div>Products Page</div>} />
             <Route path="/cart" element={<div>Cart Page</div>} />
           </Routes>
