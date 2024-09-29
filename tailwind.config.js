@@ -11,6 +11,9 @@ export default {
         "slate-gray": "#6B7280",
         "gunmetal": "#1F2937",
         "charcoal": "#374151"
+      },
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
       }
     },
   },
