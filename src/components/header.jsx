@@ -1,5 +1,5 @@
-import React from 'react';
-import backgroundImage from '../img/header.jpg';
+import React from "react";
+import backgroundImage from "../img/header.jpg";
 
 function Header() {
   return (
@@ -7,9 +7,10 @@ function Header() {
       className="relative overflow-hidden w-full h-screen"
       style={{
         backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
       }}
     >
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
@@ -19,8 +20,8 @@ function Header() {
               Summer styles are finally here
             </h1>
             <p className="mt-4 text-xl text-gray-300">
-              This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
-              if you live or die.
+              This year, our new summer collection will shelter you from the
+              harsh elements of a world that doesn't care if you live or die.
             </p>
           </div>
           <div>
