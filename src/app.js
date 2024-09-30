@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <main className="p-4">
+        <main>
           <Header />
         </main>
         <Footer />
