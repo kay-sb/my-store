@@ -4,7 +4,7 @@ import backgroundImage from "../img/header.jpg";
 function Header() {
   return (
     <div
-      className="relative overflow-hidden w-full h-screen"
+      className="relative overflow-hidden w-full h-screen rounded-b-lg"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(${backgroundImage})`,
